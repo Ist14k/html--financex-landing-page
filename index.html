@@ -4,34 +4,46 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <title>FinanceX | A Finance Landing Page</title>
   </head>
   <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <br />
-    <br />
+    <!-- hero & header section -->
+    <section class="hero" id="hero__section">
+      <main class="container">
+        <nav class="nav__content">
+          <a href="#" class="nav__btn nav__btn--brand"><h5 class="nav__brand">FinanceX</h5></a>
 
-    <a href="#">This Is Link!</a>
+          <ul class="nav__items">
+            <li class="nav__item"><a href="#" class="nav__link nav__link--active">Why FinanceX</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Update</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+          </ul>
 
-    <br />
-    <br />
+          <a href="#" class="nav__btn nav__btn--sign-up">
+            <span>Sign Up</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </nav>
 
-    <ul>
-      <li>List 1</li>
-      <li>List 2</li>
-      <li>List 3</li>
-      <form action="">
-        <fieldset>
-          <input type="text" />
-        </fieldset>
-
-        <button>Button Submit</button>
-        <input type="submit" value="Input Submit" />
-      </form>
-    </ul>
+        <div class="hero__content">
+          <h4 class="hero__subtitle">Welcome! Future Platform</h4>
+          <h1 class="hero__heading">The World's Most Modern Card <span>Platform</span></h1>
+          <p class="hero__desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem sed rerum mollitia cumque velit
+            repellendus deleniti, et fuga quo beatae asperiores assumenda quis laboriosam iusto voluptates,
+            accusamus deserunt? Dolorem, qui!
+          </p>
+          <a href="#" class="hero__btn btn btn--primary">
+            <span>Get Started</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <figure class="hero__image"><img src="./assets/images/hero-image.png" alt="" /></figure>
+      </main>
+    </section>
+    <!-- end of header section -->
     <script type="module" src="/main.js"></script>
   </body>
 </html>

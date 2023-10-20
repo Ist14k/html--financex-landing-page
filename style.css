@@ -165,7 +165,7 @@ a {
   grid-column: 2/4;
   grid-row: 1/2;
   padding: 40px 0;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 
   display: flex;
   justify-content: space-between;
@@ -307,21 +307,28 @@ a {
 .services__card-1 {
   grid-column: 5/8;
   grid-row: 1/2;
+
+  margin-bottom: -1px;
+  margin-right: -1px;
 }
 
 .services__card-2 {
   grid-column: 8/11;
   grid-row: 1/2;
+
+  margin-bottom: -1px;
 }
 
 .services__card-3 {
   grid-column: 2/5;
   grid-row: 2/3;
+  margin-right: -1px;
 }
 
 .services__card-4 {
   grid-column: 5/8;
   grid-row: 2/3;
+  margin-right: -1px;
 }
 
 .services__card-5 {

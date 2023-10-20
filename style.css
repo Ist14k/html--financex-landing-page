@@ -136,22 +136,20 @@ a {
   color: var(--clr-text--grey);
 }
 
-.card__link {
-  margin-top: 1.5rem;
-  align-self: flex-end;
+.card__icon {
   padding: 1rem;
 }
 
-.card__link i {
+.card__icon i {
   font-size: var(--fs-2xl);
   color: var(--clr-text--black);
 }
 
-.card__link--primary {
-  background-color: var(--clr-accent--green);
+.card__icon--primary {
+  background-color: var(--clr-accent--green) !important;
 }
 
-.card__link--secondary {
+.card__icon--secondary {
   background-color: var(--clr-text--white);
 }
 
@@ -304,6 +302,10 @@ a {
   color: var(--clr-text--green);
 }
 
+.services .card__icon {
+  align-self: end;
+}
+
 .services__card-1 {
   grid-column: 5/8;
   grid-row: 1/2;
@@ -376,6 +378,7 @@ a {
 
 .benefits__tracker {
   display: flex;
+  width: 80%;
   justify-content: space-between;
   align-items: center;
 }
@@ -393,4 +396,103 @@ a {
 .tracker__desc {
   font-size: var(--fs-xxs);
   color: var(--clr-text--green);
+}
+
+/* features section */
+
+.features {
+  background-color: var(--clr-accent--black);
+  padding: 5rem 0;
+}
+
+.features__content {
+  grid-column: 2/4;
+  grid-row: 1/2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features__heading {
+  flex-basis: 40%;
+}
+
+.features__subtitle {
+  color: var(--clr-text--green);
+}
+
+.features__title {
+  margin-bottom: 2rem;
+  color: var(--clr-text--white);
+}
+
+.features__title span {
+  color: var(--clr-text--green);
+}
+.features__desc {
+  margin-bottom: 3rem;
+  color: var(--clr-text--grey);
+}
+
+.features__image {
+  flex-basis: 55%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.features__image img {
+  height: 100%;
+}
+
+.features__cards {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 5rem 0;
+
+  display: flex;
+}
+
+.feature__card {
+  padding: 3rem 3rem;
+}
+
+.feature__card .card__icon {
+  align-self: start;
+  background-color: var(--clr-text--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.feature__card .card__icon i {
+  font-size: var(--fs-xl);
+}
+
+.feature__card .card__title {
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  color: var(--clr-text--white);
+  margin-bottom: 1rem;
+}
+
+.feature__card .card__desc {
+  color: var(--clr-text--grey);
+  margin-bottom: 2rem;
+}
+
+.feature__card .card__link {
+  color: var(--clr-text--white);
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

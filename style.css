@@ -185,9 +185,33 @@ a {
 
 .hero__desc {
   color: var(--clr-text--grey);
+  width: 75%;
   margin-bottom: 2rem;
 }
 
 .hero__image img {
+  height: 100%;
+  object-fit: cover;
   object-position: 15px 0;
 }
+
+/* client section */
+.client {
+  background-color: var(--clr-accent--green);
+}
+
+.client__icons {
+  grid-column: 2/4;
+  padding: 4rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* services section */
+
+/**
+  120px * 10 -> columns
+  460px * 2 -> rows
+*/
